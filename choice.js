@@ -44,7 +44,7 @@ var CP6 = ['Alpine',AlpineC,'Renault',26,"GapEX","+0",Equal]
 var CP7 = ['Alphatauri',AlphatauriC,'RBPT',16,"GapEX","+0",Equal]
 var CP8 = ['Haas',HaasC,'Ferrari',15,"GapEX","+0",Equal]
 var CP9 = ['Aston Martin',AstonC,'Aramc Mercedes',6,"GapEX","+0",Equal]
-var CP10 = ['Williams Racing',WilliamsC,'Mercedes3 ',3,"GapEX","+0",Equal]
+var CP10 = ['Williams Racing',WilliamsC,'Mercedes ',3,"GapEX","+0",Equal]
 
 // P2 Gap Calc
 var Gap = P1[4] - P2[4]
