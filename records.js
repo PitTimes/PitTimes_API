@@ -37,3 +37,6 @@ var RepGap = replace(CWP2, "GapEX", Gap)
 // Consecutive Wins Gap Calc
 var Gap = CWP2[4] - CWP3[4]
 var RepGap = replace(CWP3, "GapEX", Gap)
+
+var PWP1 = `<div class="col-md-50 d-flex align-items-stretch"> <a class="icon-box1"> <span class="rank">1st</span> <span class="team-border" style="background: ${WP1[2]}; color: ${WP1[2]}; border-radius: 2px;">|</span> <span class="name">${WP1[0]} <strong>${WP1[1]}</strong></span> <span class="d-team">${WP1[3]}</span> <span class="points">${WP1[4]} PTS</span> <span class="gap">GAP: ${WP1[5]} PTS</span> </a> </div>`
+document.getElementsByTagName("Choice")[0].innerHTML = content
