@@ -35,8 +35,8 @@ var P10 = ['Kevin','Magnussen',HaasC,'Haas',15,"GapEX","+0",Equal]
 // Example Team Name[0], Team Color[1], Engine Provider[3], Points[4], Gap[5], Gain/Lost of Positions[6], Gain Type[7]
 
 // Constructor Positions
-var CP1 = ['Red Bull Racing',RedBullC,'RBPT',196,"GapEX","+1",Gain]
-var CP2 = ['Scudaria Ferrari ',FerrariC,'Ferrari',169,"0","-1",Lose]
+var CP1 = ['Red Bull Racing',RedBullC,'RBPT',196,"0","+1",Gain]
+var CP2 = ['Scudaria Ferrari ',FerrariC,'Ferrari',169,"GapEX","-1",Lose]
 var CP3 = ['Mercedes AMG F1',MercedesC,'Mercedes',120,"GapEX","+0",Equal]
 var CP4 = ['McLaren F1',McLarenC,'Mercedes',50,"GapEX","+0",Equal]
 var CP5 = ['Alfa Romeo',RomeoC,'Ferrari',39,"GapEX","+0",Equal]
