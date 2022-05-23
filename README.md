@@ -8,7 +8,10 @@ We allow anyone to contribute
 
 ## Linking
 Links between docs can be achieved by using a hash symbol (#), plus the markdown file name, plus a slash, and finally the dash-separated anchor. For instance, to link to the above H6 heading section:
-```[URL TITLE HERE](URL HERE)```
+
+```
+[URL TITLE HERE](URL HERE)
+```
 
 ## Need Help?
 If you are in need of any help from Pit Times' team, please directly contact us via the @PitTimesOSS twitter or our official email address.
