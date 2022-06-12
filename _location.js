@@ -34,7 +34,7 @@
     }
 
     // Server Status
-    code = 501
+    code = 500
 
     if(code == "500"){
         // IP Confirmation
