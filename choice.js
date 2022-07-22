@@ -21,7 +21,7 @@ var WilliamsC = '#0093C9'
 // Example First Name[0], Last Name[2], Team Color[3], Team[4], Points[5], Gap[6], Gain/Lost of Positions[7], Gain Type[8]
 
 // Positions
-var P1 = ['Max', 'Verstappen', RedBullC, 'Red Bull Racing', 208, "0", "+0" Equal]
+var P1 = ['Max','Verstappen',RedBullC,'Red Bull Racing',208,"0","+0",Equal]
 var P2 = ['Charles', 'Leclerc', FerrariC, 'Ferrari', 170, "GapEX", "+0", Equal]
 var P3 = ['Sergio', 'Perez', RedBullC, 'Red Bull Racing', 151, "GapEX", "+0", Equal]
 var P4 = ['Carlos', 'Sainz', FerrariC, 'Ferrari', 133, "GapEX", "+0", Equal]
