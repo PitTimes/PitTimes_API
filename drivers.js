@@ -36,9 +36,10 @@ var P13 = ['Peirre', 'Gasly', AlphatauriC, 'Alphatauri', 16, "GapEX", "+0", Equa
 var P14 = ['Sebastian', 'Vettel', AstonC, 'Aston Martin', 15, "GapEX", "+0", Equal]
 var P15 = ['Mick', 'Schumacher', HaasC, 'Haas', 12, "GapEX", "+4", Gain]
 var P16 = ['Yuki', 'Tsunoda', AlphatauriC, 'Alphatauri', 11, "GapEX", "+0", Equal]
-var P17 = ['Zhou','Guanyu',RomeoC,'Alfa Romeo',5,"GapEX","+0",Equal]
-var P18 = ['Lance','Stroll',AstonC,'Aston Martin',3,"GapEX","+0",Equal]
-var P19 = ['Nico','Hulkenberg',AstonC,'Aston Martin',0,"GapEX","+0",Equal]
+var P17 = ['Zhou', 'Guanyu', RomeoC, 'Alfa Romeo', 5, "GapEX", "+0", Equal]
+var P18 = ['Alexander', 'Albon', WilliamsC, 'Williams', 3, "GapEX", "+0", Equal]
+var P19 = ['Lance','Stroll',AstonC,'Aston Martin',3,"GapEX","+0",Equal]
+var P20 = ['Nico','Hulkenberg',AstonC,'Aston Martin',0,"GapEX","+0",Equal]
 var P21 = ['Nicholas','Latifi',WilliamsC,'Williams',0,"GapEX","+0",Equal]
 
 // P2 Gap Calc
