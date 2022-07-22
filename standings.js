@@ -212,15 +212,15 @@ var p9c2 = `<div class="col-md-50 d-flex align-items-stretch"> <a class="icon-bo
 var p10c2 = `<div class="col-md-50 d-flex align-items-stretch"> <a class="icon-box1"> <span class="rank">10th</span> <span class="team-border" style="background: ${CP10[1]}; color: ${CP10[1]}; border-radius: 2px;">|</span> <span class="name">${CP10[0]}</span> <span class="d-team">${CP10[2]}</span> <span class="${CP10[6]}">${CP10[5]}</span> <span class="points">${CP10[3]} PTS</span> <span class="gap">GAP: ${CP10[4]} PTS</span> </a> </div>`
 
 var content = `<div class="title2"> <h1>2022 Driver Standings<t>.</t><br></h1> <h2>Up-to-date Formula 1 2022 Driver Standings</h2> <P1> ${p1c} </P1> <P2> ${p2c} </P2> <P3> ${p3c} </P3> <P4> ${p4c} </P4> <P5> ${p5c} </P5> <P6> ${p6c} </P6> <P7> ${p7c} </P7> <P8> ${p8c} </P8> <P9> ${p9c} </P9> <P10> ${p10c} </P10> </div> <div class="button1"> <a class="button" href="https://pittimes.com/en/drivers" style="margin-left: 43%;"> View Full Standings > </a> </div>`
-document.getElementsByTagName("Choice")[0].innerHTML = content
+document.getElementsByTagName("Choice").innerHTML = content
 
 
 function changeDrivers() {
     var content = `<div class="title2"> <h1>2022 Driver Standings<t>.</t><br></h1> <h2>Up-to-date Formula 1 2022 Driver Standings</h2> <P1> ${p1c} </P1> <P2> ${p2c} </P2> <P3> ${p3c} </P3> <P4> ${p4c} </P4> <P5> ${p5c} </P5> <P6> ${p6c} </P6> <P7> ${p7c} </P7> <P8> ${p8c} </P8> <P9> ${p9c} </P9> <P10> ${p10c} </P10> </div> <div class="button1"> <a class="button" href="https://pittimes.com/en/drivers" style="margin-left: 43%;"> View Full Standings > </a> </div>`
-    document.getElementsByTagName("Choice")[0].innerHTML = content
+    document.getElementsByTagName("Choice").innerHTML = content
 }
 
 function changeCounstructor() {
     var content = `<div class="title2"> <h1>2022 Constructor Standings<t>.</t><br></h1> <h2>Up-to-date Formula 1 2022 Constructor Standings</h2> <P1> ${p1c2} </P1> <P2> ${p2c2} </P2> <P3> ${p3c2} </P3> <P4> ${p4c2} </P4> <P5> ${p5c2} </P5> <P6> ${p6c2} </P6> <P7> ${p7c2} </P7> <P8> ${p8c2} </P8> <P9> ${p9c2} </P9> <P10> ${p10c2} </P10> </div>`
-    document.getElementsByTagName("Choice")[0].innerHTML = content
+    document.getElementsByTagName("Choice").innerHTML = content
 }
