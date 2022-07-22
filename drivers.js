@@ -17,6 +17,7 @@ var HaasC = '#B6BABD'
 var AlphatauriC = '#00293F'
 var AstonC = '#156E48'
 var WilliamsC = '#0093C9'
+
 // Example First Name[0], Last Name[2], Team Color[3], Team[4], Points[5], Gap[6], Gain/Lost of Positions[7], Gain Type[8]
 
 // Positions
