@@ -21,16 +21,16 @@ var WilliamsC = '#0093C9'
 // Example Team Name[0], Team Color[1], Engine Provider[3], Points[4], Gap[5], Gain/Lost of Positions[6], Gain Type[7]
 
 // Constructor Positions
-var CP1 = ['Red Bull Racing',RedBullC,'RBPT',236,"0","+0",Equal]
-var CP2 = ['Scudaria Ferrari ',FerrariC,'Ferrari',199,"GapEX","+0",Equal]
-var CP3 = ['Mercedes AMG F1',MercedesC,'Mercedes',134,"GapEX","+0",Equal]
-var CP4 = ['McLaren F1',McLarenC,'Mercedes',51,"GapEX","+0",Equal]
-var CP5 = ['Alfa Romeo',RomeoC,'Ferrari',40,"GapEX","+0",Equal]
-var CP6 = ['Alpine',AlpineC,'Renault',33,"GapEX","+0",Equal]
-var CP7 = ['Alphatauri',AlphatauriC,'RBPT',17,"GapEX","+0",Equal]
-var CP8 = ['Haas',HaasC,'Ferrari',15,"GapEX","+0",Equal]
-var CP9 = ['Aston Martin',AstonC,'Aramc Mercedes',6,"GapEX","+0",Equal]
-var CP10 = ['Williams Racing',WilliamsC,'Mercedes ',3,"GapEX","+0",Equal]
+var CP1 = ['Red Bull Racing', RedBullC, 'RBPT', 359, "0", "+0", Equal]
+var CP2 = ['Scudaria Ferrari ', FerrariC, 'Ferrari', 303, "GapEX", "+0", Equal]
+var CP3 = ['Mercedes AMG F1', MercedesC, 'Mercedes', 237, "GapEX", "+0", Equal]
+var CP4 = ['McLaren F1', McLarenC, 'Mercedes', 81, "GapEX", "+0", Equal]
+var CP5 = ['Alpine', AlpineC, 'Renault', 81, "GapEX", "+0", Equal]
+var CP6 = ['Alfa Romeo', RomeoC, 'Ferrari', 51, "GapEX", "+0", Equal]
+var CP7 = ['Haas', HaasC, 'Ferrari', 34, "GapEX", "+0", Equal]
+var CP8 = ['Alphatauri', AlphatauriC, 'RBPT', 27, "GapEX", "+0", Equal]
+var CP9 = ['Aston Martin', AstonC, 'Aramc Mercedes', 18, "GapEX", "+0", Equal]
+var CP10 = ['Williams Racing', WilliamsC, 'Mercedes ', 3, "GapEX", "+0", Equal]
 
 //Constructor Calc
 // P2 Gap Calc
