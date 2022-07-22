@@ -158,7 +158,7 @@ var p9c2 = `<div class="col-md-50 d-flex align-items-stretch"> <a class="icon-bo
 var p10c2 = `<div class="col-md-50 d-flex align-items-stretch"> <a class="icon-box1"> <span class="rank">10th</span> <span class="team-border" style="background: ${CP10[1]}; color: ${CP10[1]}; border-radius: 2px;">|</span> <span class="name">${CP10[0]}</span> <span class="d-team">${CP10[2]}</span> <span class="${CP10[6]}">${CP10[5]}</span> <span class="points">${CP10[3]} PTS</span> <span class="gap">GAP: ${CP10[4]} PTS</span> </a> </div>`
 
 var con_content = `<div class="title2"> <h1>2022 Constructor Standings<t>.</t><br></h1> <h2>Up-to-date Formula 1 2022 Constructor Standings</h2> <P1> ${p1c2} </P1> <P2> ${p2c2} </P2> <P3> ${p3c2} </P3> <P4> ${p4c2} </P4> <P5> ${p5c2} </P5> <P6> ${p6c2} </P6> <P7> ${p7c2} </P7> <P8> ${p8c2} </P8> <P9> ${p9c2} </P9> <P10> ${p10c2} </P10> </div>`
-document.getElementsByTagName("ConstructorStandings")[0].innerHTML = con_content
+document.getElementsByTagName("ConstructorStandings").innerHTML = con_content
 
 // Driver Standing Code
 var p1c = `<div class="col-md-50 d-flex align-items-stretch"> <a class="icon-box1"> <span class="rank">1st</span> <span class="team-border" style="background: ${P1[2]}; color: ${P1[2]}; border-radius: 2px;">|</span> <span class="name">${P1[0]} <strong>${P1[1]}</strong></span> <span class="d-team">${P1[3]}</span> <span class="${P1[7]}">${P1[6]}</span> <span class="points">${P1[4]} PTS</span> <span class="gap">GAP: ${P1[5]} PTS</span> </a> </div>`
@@ -184,7 +184,7 @@ var p20c = `<div class="col-md-50 d-flex align-items-stretch"> <a class="icon-bo
 var p21c = `<div class="col-md-50 d-flex align-items-stretch"> <a class="icon-box1"> <span class="rank">21st</span> <span class="team-border" style="background: ${P21[2]}; color: ${P21[2]}; border-radius: 2px;">|</span> <span class="name">${P21[0]} <strong>${P21[1]}</strong></span> <span class="d-team">${P21[3]}</span> <span class="${P21[7]}">${P21[6]}</span> <span class="points">${P21[4]} PTS</span> <span class="gap">GAP: ${P21[5]} PTS</span> </a> </div>`
 
 var driv_content = `<div class="title2"> <h1>2022 Driver Standings<t>.</t><br></h1> <h2>Up-to-date Formula 1 2022 Driver Standings</h2> <P1> ${p1c} </P1> <P2> ${p2c} </P2> <P3> ${p3c} </P3> <P4> ${p4c} </P4> <P5> ${p5c} </P5> <P6> ${p6c} </P6> <P7> ${p7c} </P7> <P8> ${p8c} </P8> <P9> ${p9c} </P9> <P10> ${p10c} </P10> <P11> ${p11c} </P11> <P12> ${p12c} </P12> <P13> ${p13c} </P13> <P14> ${p14c} </P14> <P15> ${p15c} </P15> <P16> ${p16c} </P16> <P17> ${p17c} </P17> <P18> ${p18c} </P18> <P19> ${p19c} </P19> <P20> ${p20c} </P20> <P21> ${p21c} </P21> </div>`
-document.getElementsByTagName("DriverStandings")[0].innerHTML = driv_content
+document.getElementsByTagName("DriverStandings").innerHTML = driv_content
 
 // Home Page Choice Function
 // Driver Standings Code
