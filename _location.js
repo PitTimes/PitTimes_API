@@ -54,6 +54,6 @@
 
 
     vir_paste = `<div class="vir_main" style="background-color: #e2273c; color: white; width: 100%; height: 100%; border-color: white;"> <img style="margin-left: 38%; margin-top: 10%; height: 450px; width: 450px" src="./imp.png"/> </div>`
-    document.getElementsByTagName("main")[0].innerHTML = vir_paste
+    document.getElementById("main")[0].innerHTML = vir_paste
 
 })()
